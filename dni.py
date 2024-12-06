@@ -87,5 +87,5 @@ def consultar_dni():
         print(f"Error al realizar la consulta: {response.status_code}")
 
 # Llamar a la función principal
-if _name_ == "_main_":
+if __name__ == "__main__":
     consultar_dni()
